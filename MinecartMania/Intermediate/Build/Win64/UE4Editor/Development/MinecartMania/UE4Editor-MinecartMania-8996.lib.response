@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MinecartMania-8996.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\AntiTilt.cpp.obj"
+"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\MinecartMania.cpp.obj"
+"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\AntiTilt.gen.cpp.obj"
+"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\MinecartMania.init.gen.cpp.obj"
+"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\PCLaunch.rc.res"
+/OUT:"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\UE4Editor-MinecartMania-8996.lib"
