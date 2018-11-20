@@ -1,45 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\MinecartMania.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{AC0E55ED-B534-4948-948F-B0E264BFD5A3}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\MinecartMania.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\MinecartManiaEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{C9745BD3-F1DB-4B9C-B1A0-931027AEDD2B}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\MinecartMania">
-      <UniqueIdentifier>{0D873D04-1BF9-4354-929E-6FEA82870A89}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\MinecartMania\MinecartMania.Build.cs">
-      <Filter>Source\MinecartMania</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\MinecartMania\MinecartMania.cpp">
-      <Filter>Source\MinecartMania</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MinecartMania\MinecartMania.h">
-      <Filter>Source\MinecartMania</Filter>
-    </ClInclude>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\MinecartMania.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{80F893F3-A7F3-4538-9811-E643E9D542F2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MinecartMania.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MinecartManiaEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{6E5D64E4-20CD-4FEA-A450-281DC6F0EECB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MinecartMania">
+			<UniqueIdentifier>{CD67DABD-E353-4C19-819F-8E25D953EE3F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MinecartMania\AntiTilt.cpp">
+			<Filter>Source\MinecartMania</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MinecartMania\AntiTilt.h">
+			<Filter>Source\MinecartMania</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MinecartMania\MinecartMania.Build.cs">
+			<Filter>Source\MinecartMania</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MinecartMania\MinecartMania.cpp">
+			<Filter>Source\MinecartMania</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MinecartMania\MinecartMania.h">
+			<Filter>Source\MinecartMania</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

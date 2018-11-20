@@ -400,20 +400,20 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Inc\MinecartMania
-/I C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Source
-/I C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Source\MinecartMania
+/I C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Inc\MinecartMania
+/I C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Source
+/I C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Source\MinecartMania
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Inc\MinecartMania\AntiTilt.gen.cpp"
-/FI"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\Definitions.MinecartMania.h"
-/Fo"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\AntiTilt.gen.cpp.obj"
+/FI"C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Inc\MinecartMania\AntiTilt.gen.cpp"
+/FI"C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\Definitions.MinecartMania.h"
+/Fo"C:\Users\Hayden\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\AntiTilt.gen.cpp.obj"
 /TP
 /GR-
 /W4

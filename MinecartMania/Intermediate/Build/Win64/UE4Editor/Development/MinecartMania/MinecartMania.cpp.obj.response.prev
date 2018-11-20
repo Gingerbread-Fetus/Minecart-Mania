@@ -409,8 +409,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
+/FI"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\MinecartManiaEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Source\MinecartMania\MinecartMania.cpp"
-/FI"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\Definitions.h"
+/FI"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\Definitions.MinecartMania.h"
 /Fo"C:\Users\hayde\Documents\Minecart-Mania\MinecartMania\Intermediate\Build\Win64\UE4Editor\Development\MinecartMania\MinecartMania.cpp.obj"
 /TP
 /GR-
