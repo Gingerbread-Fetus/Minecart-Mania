@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MinecartMania",
+			"Path": "D:\\Minecart-Mania\\MinecartMania\\Source\\MinecartMania.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MinecartManiaEditor",
+			"Path": "D:\\Minecart-Mania\\MinecartMania\\Source\\MinecartManiaEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

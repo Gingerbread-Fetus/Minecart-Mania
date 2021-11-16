@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Minecart-Mania\\MinecartMania\\Source\\MinecartMania\\MinecartMania.Build.cs",
+		"D:\\Minecart-Mania\\MinecartMania\\Source\\MinecartMania.Target.cs",
+		"D:\\Minecart-Mania\\MinecartMania\\Source\\MinecartManiaEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.1"
+}

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MINECARTMANIA_AntiTilt_generated_h
 
+#define MinecartMania_Source_MinecartMania_AntiTilt_h_12_SPARSE_DATA
 #define MinecartMania_Source_MinecartMania_AntiTilt_h_12_RPC_WRAPPERS
 #define MinecartMania_Source_MinecartMania_AntiTilt_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define MinecartMania_Source_MinecartMania_AntiTilt_h_12_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesUAntiTilt(); \
 	friend struct Z_Construct_UClass_UAntiTilt_Statics; \
 public: \
-	DECLARE_CLASS(UAntiTilt, UActorComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MinecartMania"), NO_API) \
+	DECLARE_CLASS(UAntiTilt, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MinecartMania"), NO_API) \
 	DECLARE_SERIALIZER(UAntiTilt)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesUAntiTilt(); \
 	friend struct Z_Construct_UClass_UAntiTilt_Statics; \
 public: \
-	DECLARE_CLASS(UAntiTilt, UActorComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MinecartMania"), NO_API) \
+	DECLARE_CLASS(UAntiTilt, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MinecartMania"), NO_API) \
 	DECLARE_SERIALIZER(UAntiTilt)
 
 
@@ -38,7 +39,7 @@ public: \
 	NO_API UAntiTilt(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAntiTilt) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAntiTilt); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAntiTilt); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAntiTilt); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UAntiTilt(UAntiTilt&&); \
@@ -53,7 +54,7 @@ private: \
 	NO_API UAntiTilt(const UAntiTilt&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAntiTilt); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAntiTilt); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAntiTilt); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UAntiTilt)
 
 
@@ -63,6 +64,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAntiTilt); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_PRIVATE_PROPERTY_OFFSET \
+	MinecartMania_Source_MinecartMania_AntiTilt_h_12_SPARSE_DATA \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_RPC_WRAPPERS \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_INCLASS \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_STANDARD_CONSTRUCTORS \
@@ -74,12 +76,15 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_PRIVATE_PROPERTY_OFFSET \
+	MinecartMania_Source_MinecartMania_AntiTilt_h_12_SPARSE_DATA \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_INCLASS_NO_PURE_DECLS \
 	MinecartMania_Source_MinecartMania_AntiTilt_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
+
+template<> MINECARTMANIA_API UClass* StaticClass<class UAntiTilt>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID MinecartMania_Source_MinecartMania_AntiTilt_h

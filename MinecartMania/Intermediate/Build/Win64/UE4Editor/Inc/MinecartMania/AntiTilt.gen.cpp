@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,14 +51,18 @@ void EmptyLinkFunctionForGeneratedCodeAntiTilt() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UAntiTilt_Statics::ClassParams = {
 		&UAntiTilt::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x00B000A0u,
-		nullptr, 0,
-		nullptr, 0,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
-		METADATA_PARAMS(Z_Construct_UClass_UAntiTilt_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UAntiTilt_Statics::Class_MetaDataParams))
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x00B000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_UAntiTilt_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UAntiTilt_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UAntiTilt()
 	{
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeAntiTilt() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAntiTilt, 2179529814);
+	IMPLEMENT_CLASS(UAntiTilt, 526664140);
+	template<> MINECARTMANIA_API UClass* StaticClass<UAntiTilt>()
+	{
+		return UAntiTilt::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UAntiTilt(Z_Construct_UClass_UAntiTilt, &UAntiTilt::StaticClass, TEXT("/Script/MinecartMania"), TEXT("UAntiTilt"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAntiTilt);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
